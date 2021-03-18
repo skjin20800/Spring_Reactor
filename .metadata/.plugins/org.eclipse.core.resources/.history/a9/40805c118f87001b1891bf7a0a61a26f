@@ -1,0 +1,8 @@
+package com.cos.webflux;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class DBInit {
+
+}

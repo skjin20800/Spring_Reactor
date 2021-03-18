@@ -1,0 +1,40 @@
+package reactorex01;
+
+import org.reactivestreams.Subscriber;
+import org.reactivestreams.Subscription;
+
+//<T> 구독할 데이터 타입 //구독
+public class MySubscriber implements Subscriber<Integer>{
+
+	private Integer size = 1;
+	
+	@Override
+	public void onSubscribe(Subscription s) {
+		System.out.println("2. 구독 응답 완료");
+		// 신문줘!!
+		s.request(size); // 내가 하루에 읽을 수 있는 글자수의 한계 (백프레셔 = Backpressure)		
+		System.out.println(" 4. 신문 하루에 " + size + "만큼 줘 !!");
+	}
+
+	
+	//데이터를 돌려받는 함수
+	@Override
+	public void onNext(Integer t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onError(Throwable t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	@Override
+	public void onComplete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

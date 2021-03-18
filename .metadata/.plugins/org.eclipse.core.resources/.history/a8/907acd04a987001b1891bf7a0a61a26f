@@ -1,0 +1,13 @@
+package com.cos.reactorchatting1;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class ChatController2 {
+	@GetMapping(value = "/")
+	public String findAll() {
+	 return "/jsp/webChat.html";
+	 
+	}
+}

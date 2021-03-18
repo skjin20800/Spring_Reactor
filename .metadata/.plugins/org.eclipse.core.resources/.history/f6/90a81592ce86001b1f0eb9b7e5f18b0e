@@ -1,0 +1,28 @@
+package reactorex01;
+
+import org.reactivestreams.Subscription;
+
+// 구독 정보 
+public class MySubscription implements Subscription {
+
+	private MySubscriber<Integer> subscriber;
+	
+	public MySubscription(MySubscriber s) {
+		super();
+		this.subscriber = s;
+	}
+
+	@Override
+	public void request(long n) {
+		System.out.println("4. 구독자가 하루에 신문"+n+"개씩 받는다네? ㅎㅎ");
+		// n 개씩 구독자한테 돌려주는 로직이 필요함.
+		subscriber.onNext(1);
+	}
+
+	@Override
+	public void cancel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

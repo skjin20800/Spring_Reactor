@@ -1,0 +1,5 @@
+package com.cos.webflux;
+
+public class DBInit {
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.reactivestreams.Publisher"/>
+    <fullyQualifiedTypeName name="reactorex01.MySubscription"/>
+    <fullyQualifiedTypeName name="org.reactivestreams.Subscriber"/>
+    <fullyQualifiedTypeName name="reactorex01.MyPublisher"/>
+    <fullyQualifiedTypeName name="reactorex01.MySubscriber"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="org.reactivestreams.Subscription"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="reactor.core.publisher.Flux"/>
+    <fullyQualifiedTypeName name="java.awt.PageAttributes.MediaType"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="reactor.core.publisher.EmitterProcessor"/>
+    <fullyQualifiedTypeName name="reactor.core.publisher.Sinks"/>
+    <fullyQualifiedTypeName name="reactor.core.publisher.Sinks.Many"/>
+    <fullyQualifiedTypeName name="org.springframework.http.codec.ServerSentEvent"/>
+    <fullyQualifiedTypeName name="reactor.core.publisher.Sinks.EmitResult"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
+</qualifiedTypeNameHistroy>

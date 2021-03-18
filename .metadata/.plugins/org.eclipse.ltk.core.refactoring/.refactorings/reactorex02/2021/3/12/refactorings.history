@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cos.reactorex02.TestController&apos; to &apos;TestController1&apos;&#x0D;&#x0A;- Original project: &apos;reactorex02&apos;&#x0D;&#x0A;- Original element: &apos;com.cos.reactorex02.TestController&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cos.reactorex02.TestController1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cos.reactorex02{TestController.java[TestController" matchStrategy="1" name="TestController1" qualified="false" references="true" similarDeclarations="false" stamp="1615959316847" textual="false" version="1.0"/>
+</session>

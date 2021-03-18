@@ -1,0 +1,5 @@
+package com.cos.webflux.domain;
+
+public class Customer {
+
+}

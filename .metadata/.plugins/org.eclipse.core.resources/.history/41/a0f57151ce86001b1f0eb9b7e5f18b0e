@@ -1,0 +1,33 @@
+package reactorex01;
+
+import org.reactivestreams.Subscriber;
+import org.reactivestreams.Subscription;
+
+//<T> 구독할 데이터 타입
+public class MySubscriber implements Subscriber<Integer>{
+
+	@Override
+	public void onSubscribe(Subscription s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onNext(Integer t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onError(Throwable t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onComplete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package reactorex01;
+
+import org.reactivestreams.Publisher;
+import org.reactivestreams.Subscriber;
+
+// <T> 발행정보 데이터의 타입 //발행자
+public class MyPublisher implements Publisher<Integer> {
+
+	//구독
+	@Override
+	public void subscribe(Subscriber<? super Integer> s) {
+		System.out.println("1. 구독 시작 처리중 for Subscription을 만들기 위해");
+		s.onSubscribe(new MySubscription((MySubscriber)s)); //
+	}
+}
